@@ -6,19 +6,21 @@ SELECT
     Region,
     ROUND(SUM(Sales), 2)  AS total_sales,
     ROUND(SUM(Profit), 2) AS total_profit
-FROM superstore
+FROM samplesuperstore
 GROUP BY Region
 ORDER BY total_sales DESC;
 
--- Sales and Profit by Category
+-- Top Sub-Categories by Sales and Profit
 -- Business Question:
--- Which product categories generate the most sales and profit?
+-- Which sub-categories drive the highest revenue and profit?
 
 SELECT
     Category,
+    "Sub-Category",
     ROUND(SUM(Sales), 2)  AS total_sales,
     ROUND(SUM(Profit), 2) AS total_profit
-FROM superstore
-GROUP BY Category
-ORDER BY total_sales DESC;
+FROM samplesuperstore
+GROUP BY Category, "Sub-Category"
+ORDER BY total_sales DESC
+LIMIT 10;
 
