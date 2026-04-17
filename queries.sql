@@ -5,7 +5,7 @@ SELECT
     Region,
     ROUND(SUM(Sales), 2)  AS total_sales,
     ROUND(SUM(Profit), 2) AS total_profit
-FROM samplesuperstore
+FROM superstore
 GROUP BY Region
 ORDER BY total_sales DESC;
 
@@ -17,7 +17,7 @@ SELECT
     "Sub-Category",
     ROUND(SUM(Sales), 2)  AS total_sales,
     ROUND(SUM(Profit), 2) AS total_profit
-FROM samplesuperstore
+FROM superstore
 GROUP BY Category, "Sub-Category"
 ORDER BY total_sales DESC
 LIMIT 10;
@@ -54,3 +54,25 @@ GROUP BY Discount
 HAVING SUM(Profit) < 0
 ORDER BY Discount;
 ORDER BY Discount;
+
+-- Sales and Profit by Customer Segment
+-- Business Question:
+-- Which customer segments generate the most sales and profit?
+
+SELECT
+    Segment,
+    ROUND(SUM(Sales), 2)  AS total_sales,
+    ROUND(SUM(Profit), 2) AS total_profit
+FROM superstore
+GROUP BY Segment
+ORDER BY total_sales DESC;
+
+SELECT
+    Segment,
+    ROUND(SUM(Profit) / SUM(Quantity), 2) AS profit_per_unit
+FROM superstore
+GROUP BY Segment
+ORDER BY profit_per_unit DESC;
+
+
+
