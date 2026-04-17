@@ -44,4 +44,13 @@ SELECT
     ROUND(SUM(Profit), 2) AS total_profit
 FROM superstore
 GROUP BY Discount
+
+SELECT
+    Discount,
+    ROUND(SUM(Sales), 2)  AS total_sales,
+    ROUND(SUM(Profit), 2) AS total_profit
+FROM superstore
+GROUP BY Discount
+HAVING SUM(Profit) < 0
+ORDER BY Discount;
 ORDER BY Discount;
