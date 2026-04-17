@@ -29,4 +29,10 @@ profitability. Higher discount tiers are often associated with declining
 or negative profit, suggesting the need for careful discount management
 and targeted promotions rather than broad discounting strategies.
 
+## Sales and Profit by Customer Segment
+
+Customer segment analysis shows meaningful differences in both
+revenue contribution and profitability. While some segments generate
+higher sales volume, profit margins vary, highlighting opportunities
+to tailor pricing, promotions, and service strategies by segment.
 
