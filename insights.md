@@ -1,38 +1,39 @@
-## Sales and Profit by Region
+## Key Business Insights
 
-Regional analysis shows meaningful differences in both sales volume
-and profitability. While some regions generate high revenue, profit
-does not always scale proportionally, suggesting differences in
-cost structures, discounting strategies, or product mix.
+### Regional Performance
+The West region generates the highest total sales, indicating strong revenue
+performance. However, regions such as Central achieve comparable or higher
+profitability relative to their sales volume, suggesting more efficient pricing
+strategies or lower reliance on discounting. This highlights that regional
+revenue leadership does not always translate into superior profit performance.
 
+### Product Category & Sub-Category Performance
+Technology and Furniture contribute the largest share of total sales, but
+Technology delivers stronger profitability, while Furniture shows weaker profit
+relative to revenue. Office Supplies generate more stable but lower-margin
+results. At a sub-category level, high-revenue items such as Chairs and Phones
+do not consistently produce proportional profit, whereas smaller sub-categories
+deliver stronger margins. This indicates a misalignment between sales volume and
+profit contribution across the product portfolio.
 
-## Sales and Profit by Category
+### Discount Impact on Profitability
+Discounting has a significant and visible effect on profit outcomes. Lower
+discount levels are generally associated with positive profitability, while
+higher discount tiers correspond to declining or negative profit. Although higher
+discounts increase sales volume, profit erosion often outweighs revenue gains.
+This suggests that broad, aggressive discounting strategies may be
+unsustainable and should be applied selectively.
 
-Category-level analysis shows that high sales volume does not always
-correspond to high profitability. Some categories contribute heavily
-to revenue but deliver comparatively lower profit, indicating potential
-pricing, discounting, or cost efficiency challenges.
+### Customer Segment Performance
+The Consumer segment generates the highest overall sales volume, while the
+Corporate segment delivers stronger profitability relative to its sales. This
+indicates that corporate customers may place larger or more consistent orders
+with better margins. Segment-specific pricing and sales strategies could improve
+overall profitability without necessarily increasing total sales volume.
 
-
-## Sub-Category Performance
-
-Sub-category analysis highlights where revenue concentration exists
-within broader categories. Some sub-categories deliver strong sales
-but weaker profitability, suggesting that promotional activity or cost
-management may significantly influence performance outcomes.
-
-## Impact of Discounts on Profitability
-
-Analysis by discount level shows that increasing discounts do not always
-lead to proportional revenue gains and can significantly reduce
-profitability. Higher discount tiers are often associated with declining
-or negative profit, suggesting the need for careful discount management
-and targeted promotions rather than broad discounting strategies.
-
-## Sales and Profit by Customer Segment
-
-Customer segment analysis shows meaningful differences in both
-revenue contribution and profitability. While some segments generate
-higher sales volume, profit margins vary, highlighting opportunities
-to tailor pricing, promotions, and service strategies by segment.
-
+### Overall Business Implication
+The analysis demonstrates that maximizing revenue alone is insufficient for
+driving sustainable business performance. A balanced focus on regional strategy,
+product mix, disciplined discounting, and customer segmentation is necessary to
+optimize profitability and support long-term growth.
+``
